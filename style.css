@@ -1,0 +1,38 @@
+body {
+    background: rgb(172, 172, 172);
+    color: rgb(255, 255, 255);
+}
+
+header {
+    background: rgb(179, 179, 180);
+    text-align: center;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.showcase {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.aboutIMG {
+    width: 200px;
+    text-align: end;
+    justify-content: end;
+    margin: 0px 50px 0px 50px;
+    
+}
