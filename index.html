@@ -60,23 +60,28 @@
 
 
     <section id="services">
-        <div class="container">
-            <h1>Our Services</h1>
-            <ul>
-                <li>Fast Delivery</li>
-                <li>Containers</li>
-                <li>Port Access(eModel)</li>
-                <li>Heavy Equipment</li>
-                <li>StepDeck Trailers</li>
-            </ul>
-
+        <div class="services-container">
+            <div class="services-header">
+                <h1>Our Services</h1>
+            </div>
+            <div class="services-content">
+                <ul>
+                    <li>Fast Delivery</li>
+                    <li>Containers</li>
+                    <li>Port Access(eModel)</li>
+                    <li>Heavy Equipment</li>
+                    <li>StepDeck Trailers</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <section id="gallary">
-        <div class="container">
-            <h1>Gallary</h1>
-            <div class="gallary">
+        <div class="gallery-container">
+            <div class="gallery-header">
+                <h1>Gallery</h1>
+            </div>
+            <div class="gallary-content-img">
                 <img src="images/truck.jpg" alt="Truck">
                 <img src="images/truck.jpg" alt="Truck">
                 <img src="images/truck.jpg" alt="Truck">
@@ -85,6 +90,27 @@
                 <img src="images/truck.jpg" alt="Truck">
             </div>
         </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="contact-content">
+                <div class="contact-content-info">
+                    <p>Phone: 412-708-3025</p>
+                    <p>Email: Zdlogistics@hotmail.com</p>
+                </div>
+                <form class="contact-content-form" action="contact.php" method="post">
+                    <input type="text" id="name" name="name" required placeholder="Name">
+                    <input type="email" id="email" name="email" required placeholder="Email">
+                    <textarea id="message" name="message" required placeholder="Message"></textarea>
+                    <input id="submit" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <p>Z&D Logistics LLC &copy; 2020</p>
